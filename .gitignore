@@ -1,0 +1,31 @@
+# Entornos Virtuales
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache y temporales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Archivos de distribución y empaquetado
+dist/
+build/
+*.egg-info/
+*.spec
+
+# Datos y Reportes (Mantenemos las carpetas pero ignoramos el contenido)
+data/input/*
+data/output/*
+reports/*
+!data/input/.gitkeep
+!data/output/.gitkeep
+!reports/.gitkeep
+
+# Temporales de visualización y sistema
+plots_tmp/
+.DS_Store
+

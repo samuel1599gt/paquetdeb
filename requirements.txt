@@ -1,0 +1,32 @@
+# =============================================================
+#  PaketIQ v2 — Dependencias
+#  Instalar con: pip install -r requirements.txt
+# =============================================================
+
+# Captura y análisis de paquetes de red
+scapy==2.5.0
+
+# Manipulación y análisis de datos
+numpy==1.26.4
+pandas==2.2.2
+
+# Estadísticas (skewness, kurtosis en flow_grouper)
+scipy==1.13.1
+
+# Grafos de red y topología
+networkx==3.3
+
+# Visualizaciones y gráficas
+matplotlib==3.9.0
+
+# Barra de progreso
+tqdm==4.66.4
+
+# Generación de reportes PDF
+reportlab==4.2.2
+
+# Generación de reportes HTML (templates)
+jinja2==3.1.4
+# requirements-dev.txt
+pytest==8.2.2
+pytest-cov==5.0.0

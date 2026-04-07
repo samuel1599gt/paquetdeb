@@ -20,9 +20,14 @@ Este proyecto ha sido íntegramente desarrollado por **Cyber and Code** para pro
 
 **PaketiQ** se distribuye como un paquete `.deb` para facilitar su despliegue global en sistemas Linux.
 
-1. **Descarga el instalador:**
+ **Descarga el instalador:**
    Obtén la última versión desde la sección de [Releases](https://github.com/samuel1599gt/paquetdeb/releases).
 
-2. **Instala el paquete:**
-   ```bash
-   sudo dpkg -i paketiq_1.0.0_amd64.deb
+# 1. Descargar el paquete desde el repositorio oficial
+wget https://github.com/samuel1599gt/paquetdeb/releases/download/v1.0.0/paketiq_1.0.0_amd64.deb
+
+# 2. Instalar el paquete
+sudo dpkg -i paketiq_1.0.0_amd64.deb
+
+# 3. Resolver dependencias faltantes (en caso de ser necesario)
+sudo apt-get install -f
